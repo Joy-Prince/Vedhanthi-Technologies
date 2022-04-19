@@ -7,6 +7,7 @@
   <meta name="keywords" content="">
   <meta name="author" content="">
   <title>VEDHANTHI TECHNOLOGIES </title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
   
   <link rel="shortcut icon" href="assets/img/favicon.png">
   <link rel="stylesheet" href="assets/css/plugins.css">
@@ -24,52 +25,52 @@
 
 <body>
  
-    <header>
-      <nav id="primarytop" class="navbar navbar-expand-lg navbar-light shadow">
-          <div class="container">
-            <a class="navbar-brand pt-1" href="index.html">
-              <img src="img/logo.png" alt="Vedhanthi" class="img-fluid" width="100%">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" id="toggle-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse navbar-default" id="navbarText">
-                <ul class="navbar-nav ml-auto text-center">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About us</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Services <i class="arrow down"></i>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="content.html">Content</a></li>
-                      <li><a class="dropdown-item" href="coaching.html">Coaching</a></li>
-                      <li><a class="dropdown-item" href="providing-trainer.html">Providing Trainers</a></li>
-                      <li><a class="dropdown-item" href="ttoutsourcing.html">Total Training Outsourcing</a></li>
-                      <li><a class="dropdown-item" href="ddtrainig.html">Training Design & Delivery</a></li>
-                      <li><a class="dropdown-item" href="els.html">English Language Assessment</a></li>
-                    </ul>
-                  </li> 
-                  <li class="nav-item">
-                    <a class="nav-link" href="programs.html">Programs</a>
-                  </li> 
-                  <li class="nav-item">
-                    <a class="nav-link career" href="career.html">Career</a>
-                  </li> 
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact us</a>
-                  </li> 
-                </ul>
-            </div>
+  <header>
+    <nav id="primarytop" class="navbar navbar-expand-lg header-img fixed-top">
+        <div class="container header-container">
+          <a class="navbar-brand pb-0 mb-0" href="index.html">
+            <img src="img/logo.png" alt="Vedhanthi" class="img-fluid" width="100%">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/toggle.png" alt="" width="100%">
+          </button>
+          <div class="collapse navbar-collapse navbar-default" id="navbarText">
+              <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
+                  <a class="nav-link"  href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services <i class="arrow down"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="content.html">Content</a></li>
+                    <li><a class="dropdown-item" href="coaching.html">Coaching</a></li>
+                    <li><a class="dropdown-item" href="providing-trainer.html">Providing Trainers</a></li>
+                    <li><a class="dropdown-item" href="ttoutsourcing.html">Total Training Outsourcing</a></li>
+                    <li><a class="dropdown-item" href="ddtrainig.html">Training Design & Delivery</a></li>
+                    <li><a class="dropdown-item" href="els.html">English Language Assessment</a></li>
+                  </ul>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="programs.html">Programs</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link career" href="career.html">Career</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact us</a>
+                </li> 
+              </ul>
           </div>
-      </nav>
-    </header>
+        </div>
+    </nav>
+  </header>
 
-    <img src="img/career.png" alt="career" class="img-fluid" width="100%">
+    <img src="img/career.png" alt="career" class="img-fluid" width="100%" id="top-margin">
     <section class="container text-center">
         <div class="pt-10 pb-5 mb-5">
             <h1 class="main-title text-center">Together Lets Build Your Future</h1>
@@ -79,8 +80,10 @@
         </div>
         <form action="" class="pb-5 pt-5">
             <div class="pb-5">
-                <input type="file" id="actual-btn" hidden required>
+                <input type="file" accept=".doc,.docx,,.pdf" id="actual-btn" hidden required>
                 <label for="actual-btn" class="label-file">Choose file...</label><span id="file-chosen">No file chosen</span>
+                <p>upload only these files<span class="text-red">*</span><br>
+                <span>.doc, .docx,.pdf</span></p>
             </div>
             <div>
                 <input type="submit" value="Send" class="btn submit">
@@ -94,71 +97,71 @@
     </section>
 
     <footer class="ved-bg">
-        <div class="container pt-14 pt-md-17 pb-7">
-          <div class="row gy-6 gy-lg-0">
-            <div class="col-lg-4">
-              <div class="widget">
-                <h3 class="h2 mb-3"  style="text-align: left;" >Why Vedhanthi Technologies?</h3>
-                <p class="lead mb-5 footer-text">VEDHANTHI TECHNOLOGIES training divisions is a professional training company offering IT enabled services and experienced developers / programmers in various platform.</p>
-              </div>
-              <!-- /.widget -->
+      <div class="container pt-14 pt-md-17 pb-7">
+        <div class="row gy-6 gy-lg-0">
+          <div class="col-lg-4">
+            <div class="widget">
+              <h3 class="h2 mb-3 title"  style="text-align: left;" >Why Vedhanthi Technologies?</h3>
+              <p class="lead mb-5 footer-text">VEDHANTHI TECHNOLOGIES training divisions is a professional training company offering IT enabled services and experienced developers / programmers in various platform.</p>
             </div>
-            <!-- /column -->
-            <div class="col-md-2 col-lg-2">
-              <div class="widget">
-                <h3 class=" mb-3">Quick Info</h3>
-                <ul class="list-unstyled text-reset mb-0">
-                  <li class=" footer-text"><a href="index.html" >Home</a></li>
-                  <li class=" footer-text"><a href="about.html" >About</a></li>
-                  <li class=" footer-text"><a href="contact.html" >Contact</a></li>
-                  <li class="footer-text"><a href="career.html">Career</a></li> 
-                </ul>
-              </div>
-              <!-- /.widget -->
-            </div>
-            <!-- /column -->
-            <div class="col-md-5 col-lg-4">
-              <div class="widget">
-                <h3 class=" mb-3">Services</h3>
-                <ul class="list-unstyled text-reset mb-0 ">
-                  <li class="footer-text"><a href="content.html">Content</a></li>
-                  <li class="footer-text"><a href="coaching.html">Coaching</a></li>
-                  <li class="footer-text"><a href="providing-trainer.html">Providing Trainers</a></li>
-                  <li class="footer-text"><a href="ttoutsourcing.html">Total Training Outsourcing</a></li>
-                  <li class="footer-text"><a href="ddtrainig.html">Training Design & Delivery</a></li>
-                  <li class="footer-text"><a href="els.html">English Language Assessment</a></li>
-                </ul>
-              </div>
-              <!-- /.widget -->
-            </div>
-            <!-- /column -->
-            <div class="col-md-4 col-lg-2">
-              <div class="widget">
-                <h3 class="title mb-3">Get in Touch</h3>
-                <address class="footer-text">12/1 Alagesan Road, Saibaba Colony, Coimbatore - 27</address>
-                <p class="footer-text">0422 4973389</p> 
-              </div>
-              <!-- /.widget -->
-            </div>
-            <!-- /column -->
+            <!-- /.widget -->
           </div>
-          <!--/.row -->
-          <hr class="mt-13 mt-md-15 mb-7" />
-          <div class="d-md-flex align-items-center justify-content-between">
-            <p class="mb-2 mb-lg-0 footer-text">© 2022 Vedhanthi Technologies. All rights reserved.</p>
-          <!-- <  <nav class="nav social  text-md-end"> 
-              <a href="#"><i class="uil uil-twitter"></i></a>
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
-              <a href="#"><i class="uil uil-dribbble"></i></a>
-              <a href="#"><i class="uil uil-instagram"></i></a>
-              <a href="#"><i class="uil uil-youtube"></i></a>
-            </nav> -->
-            <!-- /.social -->
+          <!-- /column -->
+          <div class="col-md-2 col-lg-2">
+            <div class="widget">
+              <h3 class=" mb-3 title">Quick Info</h3>
+              <ul class="list-unstyled text-reset mb-0">
+                <li class=" footer-text"><a href="index.html" >Home</a></li>
+                <li class=" footer-text"><a href="about.html" >About</a></li>
+                <li class=" footer-text"><a href="contact.html" >Contact</a></li>
+                <li class="footer-text"><a href="career.html">Career</a></li> 
+              </ul>
+            </div>
+            <!-- /.widget -->
           </div>
-          <!-- /div -->
+          <!-- /column -->
+          <div class="col-md-5 col-lg-4">
+            <div class="widget">
+              <h3 class=" mb-3 title">Services</h3>
+              <ul class="list-unstyled text-reset mb-0 ">
+                <li class="footer-text"><a href="content.html">Content</a></li>
+                <li class="footer-text"><a href="coaching.html">Coaching</a></li>
+                <li class="footer-text"><a href="providing-trainer.html">Providing Trainers</a></li>
+                <li class="footer-text"><a href="ttoutsourcing.html">Total Training Outsourcing</a></li>
+                <li class="footer-text"><a href="ddtrainig.html">Training Design & Delivery</a></li>
+                <li class="footer-text"><a href="els.html">English Language Assessment</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
+          <div class="col-md-4 col-lg-2">
+            <div class="widget">
+              <h3 class="title mb-3">Get in Touch</h3>
+              <address class="footer-text">12/1 Alagesan Road, Saibaba Colony, Coimbatore - 27</address>
+              <p class="footer-text">0422 4973389</p> 
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
         </div>
-        <!-- /.container -->
-      </footer>
+        <!--/.row -->
+        <hr class="mt-13 mt-md-15 mb-7" />
+        <div class="d-md-flex align-items-center justify-content-between">
+          <p class="mb-2 mb-lg-0 footer-text">© 2022 Vedhanthi Technologies. All rights reserved.</p>
+        <!-- <  <nav class="nav social  text-md-end"> 
+            <a href="#"><i class="uil uil-twitter"></i></a>
+            <a href="#"><i class="uil uil-facebook-f"></i></a>
+            <a href="#"><i class="uil uil-dribbble"></i></a>
+            <a href="#"><i class="uil uil-instagram"></i></a>
+            <a href="#"><i class="uil uil-youtube"></i></a>
+          </nav> -->
+          <!-- /.social -->
+        </div>
+        <!-- /div -->
+      </div>
+      <!-- /.container -->
+    </footer>
       <div class="progress-wrap">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
           <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
