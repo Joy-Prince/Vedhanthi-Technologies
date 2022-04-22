@@ -1,20 +1,20 @@
-var flipContainer = $('.container-slider'),
-    flipItemContainer = flipContainer.find('.gallery'),
-    flipItem = flipContainer.find('li');
+// var flipContainer = $('.container-slider'),
+//     flipItemContainer = flipContainer.find('.gallery'),
+//     flipItem = flipContainer.find('li');
 
-    $(flipContainer).flipster({
-      loop: true,
-      start: 0,
-      style: 'carousel',
-      spacing: 0.1,
-      scrollwheel: false,
-      nav: 'after',
-      buttons: true,
-      autoplay: 5000,
-      pauseOnHover: true,
-      touch: true,
+//     $(flipContainer).flipster({
+//       loop: true,
+//       start: 0,
+//       style: 'carousel',
+//       spacing: 0.1,
+//       scrollwheel: false,
+//       nav: 'after',
+//       buttons: true,
+//       autoplay: 5000,
+//       pauseOnHover: true,
+//       touch: true,
 
-  });
+//   });
  
     AOS.init({
       offset: 70,
@@ -30,3 +30,4 @@ var flipContainer = $('.container-slider'),
     actualBtn.addEventListener('change', function(){
         fileChosen.textContent = this.files[0].name
     })
+
