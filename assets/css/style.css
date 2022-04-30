@@ -1,5 +1,6 @@
 .body {
-	background-color: #E7EAD9;
+	background-color: #8ceba8;
+	opacity: 0.8;
 }
 
 .ved-bg{
@@ -41652,6 +41653,10 @@ footer.bg-dark.angled.upper-start:before {
 	width: 70px;
 }
 
+.border-form {
+	border:1px solid white !important;
+	opacity: 0.9;
+}
 
 .body-justify {
 	text-align: justify;
@@ -41793,7 +41798,7 @@ footer.bg-dark.angled.upper-start:before {
 }
 .title{
 	font-family: 'Montserrat', sans-serif !important;
-	color:#8ceba8;
+	color:white;
 	font-weight: 700;
 	font-size: 20px;
 	text-transform: capitalize !important;
@@ -41948,6 +41953,7 @@ Contact Us
 	font-size: 18px !important;
 	font-weight: 400;
 	font-family: 'Montserrat', sans-serif;
+	border-radius: 50px;
 }
 label{
 	font-size: 20px;
@@ -41958,7 +41964,7 @@ label{
 }
 .form-control{
 	height: 50px;
-	border-radius: 0px;
+	border-radius: 5px;
 	
 }
 
@@ -42068,24 +42074,98 @@ career
 	box-shadow:0 30px 80px 0 rgba(0,0,0,0.19), 0 10px 10px 0 rgba(0,0,0,0.24) !important;
   }
 
+body {
+	color: #666666;
+}
+
   hr {
 	  width: 70%;
+	  border-color: black;
+	  text-align: center;
   }
 
+  .sidehr {
+	content: '';
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    width: 20%;
+    max-width: 100px;
+    height: 5px !important;
+    opacity: 0.6;
+	left: 40%;
+    border: 1px solid black ;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  .sidehr:before, .sidehr:after {
+	  background-color: black;
+  }
+
+  .sidehr:before {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    content: '';
+    height: 1px;
+    max-width: 120px;
+    width: 120%;
+    position: relative;
+    float: right;
+    right: 100%;
+    top: 1px;
+    opacity: 0.5;
+}
+
+.sidehr:after {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    content: '';
+    height: 1px;
+    max-width: 120px;
+    width: 120%;
+    position: absolute;
+    float: left;
+    left: 100%;
+    top: 1px;
+    opacity: 0.5;
+}
+
+.sidehr:before:hover, .sidehr:after:hover{
+	width: 200%;
+}
+
+
+  
   .sidenavli {
-	  text-align: center;
-	  background-color: #3B4A3F;
+	  margin-left: 80px;
+	  /* background-color: #3B4A3F; */
 	  margin-bottom: 5px;
 	  cursor: pointer;
-	  width: 50%;
+	  width: 100%;
+  }
+
+  .sidenavli:before {
+	  content: "\00BB";
+	  padding-right: 3px;
+	  
   }
   .sidenavli:hover {
-	box-shadow: 0 20px 20px 0 rgba(0,0,1,0.5), 0 60px 80px 0 rgba(2,0,0,0.19) !important;
+	padding-left: 30px;
+	transition: padding 0.5s ease-in-out;
   }
 
   .sidenav > li > a:hover {
-	  color: white;
+	  color: black;
 	  cursor: pointer;
+	  
   }
   .sidenav{
 	  list-style-type: none;
@@ -42094,13 +42174,15 @@ career
 
   .sidenav > li {
 	  padding: 10px;
-	
+	  text-align: left;
+	  
   }
 
   .sidenav > li > a{
-	  color:white;
+	  color:black;
 	  text-decoration: none;
 	  font-family: 'Montserrat', sans-serif;
+	  
   }
 
   .nativeapp1{
@@ -42115,6 +42197,10 @@ career
 	  display: none;
   }
 
+  .mad-self,.test-self, .design-self, .os-self, 
+  .microsoft-self, .native1-self, .hybrid1-self, .qa-self{
+	  text-align: center;
+  }
 
   .mad-self:hover,.test-self:hover, .design-self:hover, .os-self:hover, 
   .microsoft-self:hover, .native1-self:hover, .hybrid1-self:hover, .qa-self:hover{
