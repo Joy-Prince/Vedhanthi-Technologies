@@ -5,7 +5,8 @@
 
 .ved-bg{
 	/* background-color: #2F4858; */
-	background-color: #3B4A3F;
+	/* background-color: #3B4A3F; */
+	background-image: url('../../img/bg-footer.png');
 	opacity: 0.9;
 }
 
@@ -41811,7 +41812,7 @@ footer.bg-dark.angled.upper-start:before {
 }
 .footer-title {
 	font-size: 16px;
-	font-weight: 100 !important;
+	font-weight: 500 !important;
 	color:#8ceba8;
 	text-transform: capitalize !important;
 	font-family: 'Montserrat', sans-serif !important;
@@ -41821,14 +41822,14 @@ footer.bg-dark.angled.upper-start:before {
 
 .footer-text {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 100;
+	font-weight: 500;
 	color: white;
 	font-size: 15px;
 }
 
 .footer-text > a {
 	color: white;
-	font-weight: 100;
+	font-weight: 500;
 }
 .dropdown-toggle::after {
     display: none !important;
@@ -42145,7 +42146,7 @@ body {
 
   
   .sidenavli {
-	  margin-left: 80px;
+	  margin-left: 50px;
 	  /* background-color: #3B4A3F; */
 	  margin-bottom: 5px;
 	  cursor: pointer;
