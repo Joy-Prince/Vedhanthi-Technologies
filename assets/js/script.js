@@ -460,6 +460,72 @@ $('.jenkins-self').click(function(){
   $('.jenkins').fadeIn(1500);
 });
 
+/* -------------------------------------
+----------------------------------------
+career
+----------------------------------------
+--------------------------------------*/
+
+$('#learn1').click(function(){ 
+  $('#career, .form-page').fadeOut('slow');
+  $('#learn-page1').fadeIn(1500);
+});
+
+$('#learn2').click(function(){ 
+  $('#career, .form-page').fadeOut('slow');
+  $('#learn-page2').fadeIn(1500);
+});
+
+$('#learn3').click(function(){ 
+  $('#career, .form-page').fadeOut('slow');
+  $('#learn-page3').fadeIn(1500);
+});
+
+$('#learn4').click(function(){ 
+  $('#career, .form-page').fadeOut('slow');
+  $('#learn-page4').fadeIn(1500);
+});
+
+$('#learn5').click(function(){ 
+  $('#career, .form-page').fadeOut('slow');
+  $('#learn-page5').fadeIn(1500);
+});
+
+$('#learn6').click(function(){ 
+  $('#career, .form-page').fadeOut('slow');
+  $('#learn-page6').fadeIn(1500);
+});
+
+$('#learn7').click(function(){ 
+  $('#career, .form-page').fadeOut('slow');
+  $('#learn-page7').fadeIn(1500);
+});
+
+$('#learn8').click(function(){ 
+  $('#career, .form-page').fadeOut('slow');
+  $('#learn-page8').fadeIn(1500);
+});
+
+$('#learn9').click(function(){ 
+  $('#career, .form-page').fadeOut('slow');
+  $('#learn-page9').fadeIn(1500);
+});
+
+$('#learn10').click(function(){ 
+  $('#career, .form-page').fadeOut('slow');
+  $('#learn-page10').fadeIn(1500);
+});
+
+$('.career-back').click(function(){ 
+  $('#learn-page1, #learn-page2,#learn-page3,#learn-page4,#learn-page5,#learn-page6, #learn-page7, #learn-page8, #learn-page9, #learn-page10').fadeOut('slow');
+  $('#career').fadeIn(1500);
+});
+
+$('.applynow').click(function(){ 
+  $('#learn-page1, #learn-page2, #learn-page3, #learn-page4, #learn-page5, #learn-page6, #learn-page7, #learn-page8, #learn-page9,#learn-page10').fadeOut('slow');
+  $('.form-page').fadeIn(1500);
+});
+
 
 var mybutton = document.getElementById('myBtn');
 window.onscroll = function() {scrollFunction()};
