@@ -16,6 +16,10 @@
 
 //   });
 
+
+
+
+
 /* -------------------------------------
 ----------------------------------------
 MOBILE APP
@@ -517,14 +521,15 @@ $('#learn10').click(function(){
 });
 
 $('.career-back').click(function(){ 
-  $('#learn-page1, #learn-page2,#learn-page3,#learn-page4,#learn-page5,#learn-page6, #learn-page7, #learn-page8, #learn-page9, #learn-page10').fadeOut('slow');
+  $('#learn-page1, #learn-page2,#learn-page3,#learn-page4,#learn-page5,#learn-page6, #learn-page7, #learn-page8, #learn-page9, #learn-page10, .form-page').fadeOut('slow');
   $('#career').fadeIn(1500);
 });
 
 $('.applynow').click(function(){ 
-  $('#learn-page1, #learn-page2, #learn-page3, #learn-page4, #learn-page5, #learn-page6, #learn-page7, #learn-page8, #learn-page9,#learn-page10').fadeOut('slow');
+  $('#learn-page1, #learn-page2, #learn-page3, #learn-page4, #learn-page5, #learn-page6, #learn-page7, #learn-page8, #learn-page9,#learn-page10, .form-page').fadeOut('slow');
   $('.form-page').fadeIn(1500);
 });
+
 
 
 var mybutton = document.getElementById('myBtn');
@@ -560,7 +565,8 @@ function topFunction() {
 
 
     $('.carousel').carousel({
-      interval: 2000
+      interval: 1000,
+      loop: true,
     })
 
     
