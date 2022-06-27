@@ -332,33 +332,38 @@ microsoft
 ------------------------*/
 
 $('.microsoft-self').click(function(){ 
-  $('.asp, .sql, .silver, .devops, .c').fadeOut('fast');
+  $('.asp, .sql, .silver, .devops, .c, .xamarin-ms').fadeOut('fast');
   $('.microsoft').fadeIn(1500);
 });
 
 $('.asp-self').click(function(){ 
-  $('.microsoft, .sql, .silver, .devops, .c').fadeOut('fast');
+  $('.microsoft, .sql, .silver, .devops, .c, .xamarin-ms').fadeOut('fast');
   $('.asp').fadeIn(1500);
 });
 
 $('.sql-self').click(function(){ 
-  $('.microsoft, .asp, .silver, .devops, .c').fadeOut('fast');
+  $('.microsoft, .asp, .silver, .devops, .c, .xamarin-ms').fadeOut('fast');
   $('.sql').fadeIn(1500);
 });
 
 $('.silver-self').click(function(){ 
-  $('.microsoft, .sql, .asp, .devops, .c').fadeOut('fast');
+  $('.microsoft, .sql, .asp, .devops, .c, .xamarin-ms').fadeOut('fast');
   $('.silver').fadeIn(1500);
 });
 
 $('.devops-self').click(function(){ 
-  $('.microsoft, .sql, .silver, .asp, .c').fadeOut('fast');
+  $('.microsoft, .sql, .silver, .asp, .c, .xamarin-ms').fadeOut('fast');
   $('.devops').fadeIn(1500);
 });
 
 $('.c-self').click(function(){ 
-  $('.microsoft, .sql, .silver, .devops, .asp').fadeOut('fast');
+  $('.microsoft, .sql, .silver, .devops, .asp, .xamarin-ms').fadeOut('fast');
   $('.c').fadeIn(1500);
+});
+
+$('.xamarin-self').click(function(){ 
+  $('.microsoft, .sql, .silver, .devops, .asp, .c').fadeOut('fast');
+  $('.xamarin-ms').fadeIn(1500);
 });
 
 /* -------------------------------------
@@ -466,67 +471,40 @@ $('.jenkins-self').click(function(){
 
 /* -------------------------------------
 ----------------------------------------
-career
+Web App
 ----------------------------------------
 --------------------------------------*/
-
-$('#learn1').click(function(){ 
-  $('#career, .form-page').fadeOut('slow');
-  $('#learn-page1').fadeIn(1500);
+$('.webapp-self').click(function(){ 
+  $('.njs, .ajs, .phpweb, .laravel, .ci, .yii ').fadeOut('fast');
+  $('.webapp').fadeIn(1500);
 });
-
-$('#learn2').click(function(){ 
-  $('#career, .form-page').fadeOut('slow');
-  $('#learn-page2').fadeIn(1500);
+$('.njs-self').click(function(){ 
+  $('.webapp, .ajs, .phpweb, .laravel, .ci, .yii ').fadeOut('fast');
+  $('.njs').fadeIn(1500);
 });
-
-$('#learn3').click(function(){ 
-  $('#career, .form-page').fadeOut('slow');
-  $('#learn-page3').fadeIn(1500);
+$('.ajs-self').click(function(){ 
+  $('.njs, .webapp, .phpweb, .laravel, .ci, .yii ').fadeOut('fast');
+  $('.ajs').fadeIn(1500);
 });
-
-$('#learn4').click(function(){ 
-  $('#career, .form-page').fadeOut('slow');
-  $('#learn-page4').fadeIn(1500);
+$('.phpweb-self').click(function(){ 
+  $('.njs, .ajs, .webapp, .laravel, .ci, .yii ').fadeOut('fast');
+  $('.phpweb').fadeIn(1500);
 });
-
-$('#learn5').click(function(){ 
-  $('#career, .form-page').fadeOut('slow');
-  $('#learn-page5').fadeIn(1500);
+$('.laravel-self').click(function(){ 
+  $('.njs, .ajs, .phpweb, .webapp, .ci, .yii ').fadeOut('fast');
+  $('.laravel').fadeIn(1500);
 });
-
-$('#learn6').click(function(){ 
-  $('#career, .form-page').fadeOut('slow');
-  $('#learn-page6').fadeIn(1500);
+$('.ci-self').click(function(){ 
+  $('.njs, .ajs, .phpweb, .laravel, .webapp, .yii ').fadeOut('fast');
+  $('.ci').fadeIn(1500);
 });
-
-$('#learn7').click(function(){ 
-  $('#career, .form-page').fadeOut('slow');
-  $('#learn-page7').fadeIn(1500);
-});
-
-$('#learn8').click(function(){ 
-  $('#career, .form-page').fadeOut('slow');
-  $('#learn-page8').fadeIn(1500);
-});
-
-$('#learn9').click(function(){ 
-  $('#career, .form-page').fadeOut('slow');
-  $('#learn-page9').fadeIn(1500);
-});
-
-$('#learn10').click(function(){ 
-  $('#career, .form-page').fadeOut('slow');
-  $('#learn-page10').fadeIn(1500);
-});
-
-$('.career-back').click(function(){ 
-  $('#learn-page1, #learn-page2,#learn-page3,#learn-page4,#learn-page5,#learn-page6, #learn-page7, #learn-page8, #learn-page9, #learn-page10, .form-page').fadeOut('slow');
-  $('#career').fadeIn(1500);
+$('.yii-self').click(function(){ 
+  $('.njs, .ajs, .phpweb, .laravel, .ci, .webapp ').fadeOut('fast');
+  $('.yii').fadeIn(1500);
 });
 
 $('.applynow').click(function(){ 
-  $('#learn-page1, #learn-page2, #learn-page3, #learn-page4, #learn-page5, #learn-page6, #learn-page7, #learn-page8, #learn-page9,#learn-page10, .form-page').fadeOut('slow');
+  $('#learn-page1, #learn-page2, #learn-page3, #learn-page4, #learn-page5, #learn-page6, #learn-page7, #learn-page8, #learn-page9,#learn-page10,').fadeOut('slow');
   $('.form-page').fadeIn(1500);
 });
 
