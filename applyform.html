@@ -112,7 +112,7 @@
   <section class="container mb-10"style="margin-top:150px" data-aos="fade-in">
     <!-- <a class="sidenavli career-back sub-title ml-0">Back To Career Page</a> -->
     <h1 class="main-title text-center mt-5 mb-5">Apply Here</h1>
-    <form action="" method="get" onsubmit="return validateForm()">
+    <form action="https://formsubmit.co/el/miroga" method="POST" onsubmit="return validateForm()">
       <div class="form-group" >
         <div class="row">
           <div class="col-12 col-md-6">
@@ -133,7 +133,7 @@
           </div>
           <div class="form-group col-12 col-md-6">
             <!-- <input type="text" name="category" placeholder="Select Role" class="form-control" required>    -->
-            <select class="form-select form-control" aria-label="Default select example">
+            <select class="form-select form-control" name="role" aria-label="Default select example">
               <option selected value="Default">Select the role</option>
               <option value="1">Software Engineer – PHP</option>
               <option value="2">Software Engineer – Android</option>
@@ -148,7 +148,7 @@
             </select>  <br>     
           </div>
           <div class="col-12 col-md-6">
-            <input type="file" accept=".doc,.docx,.pdf" id="actual-btn"  required class="form-control" value="Upload Your Resume">
+            <input type="file" name="file" accept=".doc,.docx,.pdf" id="actual-btn"  required class="form-control" value="Upload Your Resume">
             <span class="para"> <span class="text-red"> *</span>upload your resume</span><br>
           </div>
         </div>
